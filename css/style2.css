@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D0D0D;
+    color: #ffffff;
+}
+
+header {
+    background-color: #0D0D0D;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+header .logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7C3030;
+}
+
+.comic-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #0D0D0D;
+    color: #ffffff;
+    border-bottom: 1px solid #7C3030;
+}
+
+.comic-image {
+    flex: 1 1 100%;
+    margin: 10px;
+}
+
+.comic-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.comic-info {
+    flex: 1 1 100%;
+}
+
+.comic-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.comic-info p {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #7C3030;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #7C3030;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .comic-details {
+        padding: 10px;
+    }
+
+    .comic-image,
+    .comic-info {
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .comic-image img {
+        width: 100%;
+    }
+
+    .comic-info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .comic-info p {
+        margin: 10px 0;
+    }
+}
