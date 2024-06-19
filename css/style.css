@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0D0D0D;
-    color: #ffffff;
+    color: #0D0D0D;
 }
 
 header {
@@ -18,8 +18,7 @@ header {
 }
 
 .logo {
-    width: 100%; 
-    max-width: 400px; 
+    width: 400px;
     display: block;
     margin: 0 auto 10px;
 }
@@ -65,15 +64,12 @@ nav ul li a:hover {
     font-size: 18px;
     margin-bottom: 20px;
 }
-
 .cafe {
     display: block;
     margin: 30px auto;
-    width: 100%; 
-    max-width: 400px; 
+    width: 400px;
     height: auto;
 }
-
 .btn {
     background-color: #7C3030;
     color: #ffffff;
@@ -88,7 +84,6 @@ nav ul li a:hover {
     background-color: #000000;
     color: #ffffff;
 }
-
 .animacion {
     transition: transform 0.3s ease;
 }
@@ -120,9 +115,5 @@ footer {
 
     .logo {
         width: 150px;
-    }
-
-    .cafe {
-        max-width: 300px; 
     }
 }

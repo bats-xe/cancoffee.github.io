@@ -130,11 +130,10 @@ footer {
     margin-top: 20px;
 }
 
-
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .logo {
         width: 100%;
-        max-width: 200px;
+        max-width: 300px;
     }
 
     nav ul {
@@ -143,7 +142,6 @@ footer {
     }
 
     nav ul li {
-        display: block;
         margin: 10px 0;
     }
 

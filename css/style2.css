@@ -48,25 +48,25 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 50px;
     background-color: #0D0D0D;
     color: #ffffff;
     border-bottom: 1px solid #7C3030;
 }
 
 .comic-image {
-    flex: 1 1 100%;
-    margin: 10px;
+    flex: 1;
+    margin: 20px;
 }
 
 .comic-image img {
-    width: 100%;
+    width: 70%;
     height: auto;
     display: block;
 }
 
 .comic-info {
-    flex: 1 1 100%;
+    flex: 2;
 }
 
 .comic-info h2 {
@@ -75,7 +75,7 @@ nav ul li a:hover {
 }
 
 .comic-info p {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .btn {
@@ -112,23 +112,25 @@ footer {
     }
 
     .comic-details {
-        padding: 10px;
+        padding: 20px;
     }
 
-    .comic-image,
-    .comic-info {
-        flex: none;
-        width: 100%;
-        text-align: center;
+    .comic-image {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .comic-image img {
         width: 100%;
     }
 
+    .comic-info {
+        flex: none;
+        text-align: center;
+    }
+
     .comic-info h2 {
         font-size: 20px;
-        margin-bottom: 10px;
     }
 
     .comic-info p {
